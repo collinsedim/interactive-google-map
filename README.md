@@ -1,2 +1,6 @@
-# interactive-google-map
-This code initializes the map, adds custom markers, enables geolocation services to display the user's location, and allows users to calculate routes between two locations. Customize the CSS and add additional JavaScript logic to suit your requirements and desired design.
+# Interactive Google Maps
+This script initiates Google Map, incorporates personalized markers, activates geolocation services for showing the user's location, and enables route calculations between two destinations. Modify the CSS and include extra JavaScript logic as per your specific needs and desired design.
+
+Make sure to replace **YOUR_API_KEY** with your actual Google Maps API key.
+
+Also, when using Google Maps API, it is important to go through the documentation. This will help you understand how to customize and access additional features.
