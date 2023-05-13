@@ -2,15 +2,23 @@
 <html>
 <head>
   <title>Interactive Map</title>
-  <style>
-    #map {
-      height: 400px;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="map"></div>
+  <section class="top">
+    <form class="form-body">
+      <label for="origin">Origin:
+        <input type="text" name="origin" class="origin" id="">
+      </label>
+      <label for="destination">Destination:
+        <input type="text" name="destination" class="destination" id="">
+      </label>
+      <div class="btn">
+        <button type="submit" class="route-button">Search</button>
+      </div>
+    </form>
+    <div id="map"></div>
+  </section>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
   <script src="script.js"></script>
